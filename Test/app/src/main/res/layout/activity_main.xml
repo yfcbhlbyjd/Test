@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="42sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/num1Ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 1"/>
+    <EditText
+        android:id="@+id/num2Ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 2"/>
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="28sp"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
