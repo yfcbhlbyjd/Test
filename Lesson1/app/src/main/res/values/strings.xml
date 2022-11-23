@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Lesson1</string>
-    <string name="btn_name">submit</string>
-    <string name="enter_et">Enter</string>
-    <string name="btn_transition">transition</string>
-</resources>
